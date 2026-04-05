@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
     <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.php">
+        <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
             <img src="{{ asset('img/logo.png') }}" alt="Logo" width="40" height="40"
                 class="me-2 rounded-circle border border-light">
             <span class="fw-bold">Snap & Joy Photobooth</span>
